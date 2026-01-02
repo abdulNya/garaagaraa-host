@@ -1,0 +1,62 @@
+root{
+    font-family: 'Press Start 2P','system ui';
+    color: white;
+}
+
+body{
+    background-color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: blue;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: red;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-navbar {
+    color: blue;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#lyrics {
+    font-size: 24px;
+    font-weight: 700;
+    color: brown;
+    border: 2px solid brown;
+    padding: 20px 30px;
+    border-radius: 15px;
+    min-width: 400px;
+    max-width: 600px;
+    line-height: 1.6;
+    background: #181512;
+    box-shadow: 0 0 15px rgba(165, 42, 42, 0.5);
+    animation: blink 1s infinite;
+}
+
+.a-content{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
